@@ -1,0 +1,67 @@
+<?xml version="1.0" standalone="no"?>
+
+<kickstart>
+
+
+	<description>
+	Your grass64 roll description here
+	</description>
+
+	<copyright>
+	Copyright (c) 2000 - 2014 The Regents of the University of California.
+	All rights reserved. Rocks(r) v6.1.1 www.rocksclusters.org
+	
+	</copyright>
+
+	<changelog>
+	$Log$
+	4/4/2016 -- Added wxPython rpm package
+	4/27/2016 -- Put blas ahead of lapack
+	4/27/2016 -- Added all dependencies 
+	4/29/2016 -- Commented out superflous dependency install tags
+	5/3/2016 -- Added sqlite-devel package install
+
+	</changelog>
+	
+	<package>atlas</package>
+	<package>atlas-devel</package>
+	<package>blas</package>
+	<package>blas-devel</package>
+	<package>lapack</package>
+	<package>lapack-devel</package>
+	<package>popt</package>
+	<package>hdf5</package>
+	<package>proj</package>
+	<package>giflib</package>
+	<package>unixODBC</package>
+	<package>libdap</package>
+	<package>netcdf</package>
+	<package>postgresql-libs</package>
+	<package>librx</package>
+	<package>xerces-c</package>
+	<package>ogdi</package>
+	<package>cfitsio</package>
+	<package>libgeotiff</package>
+	<package>geos</package>
+	<package>gdal</package>
+	<package>wxBase</package>
+	<package>wxGTK</package>
+	<package>wxGTK-gl</package>
+	<package>wxGTK-media</package>
+	<package>python-empy</package>
+	<package>bakefile</package>
+	<package>wxGTK-devel</package>
+	<package>wxPython</package>
+	<package>sqlite-devel</package>
+	<package>fftw2</package>
+	<package>grass-libs</package>
+	<package>proj-epsg</package>
+	<package>proj-nad</package>
+	<package>python-setuptools</package>
+	<package>python-nose</package>
+	<package>numpy</package>
+	<package>sqlite-devel.x86_64</package>
+	<package>grass</package>
+
+
+</kickstart>
